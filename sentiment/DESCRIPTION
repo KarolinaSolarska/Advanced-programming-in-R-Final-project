@@ -1,0 +1,18 @@
+Package: sentiment
+Title: Calculates and analyzes sentiment scores
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Zuzanna", family = "Miazio", email = "z.miazio@student.uw.edu.pl", role = c("cre","aut")), 
+	person(given = "Karolina", family = "Solarska", email = "karlasolarska@gmail.com", role = c("aut")))
+Description: This package is calculating sentiment of a dataframe.
+License: GPL-2
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    stringr,
+    tidytext,
+    utils
+Depends: 
+    tidyverse
